@@ -1,0 +1,40 @@
+:root {
+	--cor-white: white;
+	--cor-white-gray: #FEFEFE;
+	--cor-orange: orange;
+	--cor-orange2: darkorange;
+	--cor-brown: #C78C19;
+	--cor-green: #088C19;
+	--cor-red: #FF0000;
+	--cor-light-gray: #CCCCCC;
+	--cor-medium-gray: #BBBBBB;
+	--cor-gray: #888888;
+	--cor-dark-grey: #555555;
+	--cor-black: #000000;
+
+	--shadow: 10px 10px 10px 0 #000000;
+	--shadow-geral: 0px 0px 9px 9px rgba(0,0,0,0.75);
+
+	--fonte-padrao: 'Montserrat', sans-serif;
+	--fonte-secundaria: 'Oswald', sans-serif;
+
+}
+
+body{
+	max-width: 1600px;
+	background: var(--cor-light-gray);
+	margin: auto;
+	box-shadow: var(--shadow-geral);
+}
+
+.container{
+	text-align: center;
+	background: url("../img/bg.jpg");
+
+}
+
+.copyright{
+	color: var(--cor-white);
+	font-size: 13px;
+	padding-bottom: 1rem;	
+}
